@@ -1,5 +1,10 @@
 # eosed-rs
 
+[![CI](https://github.com/Verschworer/eosed-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/Verschworer/eosed-rs/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/release/Verschworer/eosed-rs.svg)](https://github.com/Verschworer/eosed-rs/releases/latest)
+[![License: GPL-2.0-or-later](https://img.shields.io/badge/license-GPL--2.0--or--later-blue.svg)](LICENSE)
+[![Rust](https://img.shields.io/badge/rust-1.95-orange.svg)](Cargo.toml)
+
 Rust port of **eosed** — a tool for the E-mu EOS sampler (E4XT Ultra, firmware
 4.70 verified live).
 
@@ -61,3 +66,14 @@ carrier_check 4 argument combinations · panel encoders half/braille ·
 lcd_read glyph OCR on synthetic field.
 
 See docs/PORT_NOTES.md for deliberate divergences (entry.py, rig.py, probes).
+
+## Thanks
+
+- **lentferj** — upstream <https://github.com/lentferj/eosed>, whose protocol
+  knowledge and measured device quirks made this port possible.
+- The **Strata** project and its contributors —
+  <https://github.com/Niko1221/Strata> (Niko1221, LaurentZuijdwijk, havok2-htwo,
+  j-luwierski, jeremiahritchey) — for running Qwen models locally on consumer
+  hardware.
+- This port was carried out by **qwen3.8-flash-next-q2_0** running locally via
+  the Strata engine on a Mac M1 Max (64 GB).
