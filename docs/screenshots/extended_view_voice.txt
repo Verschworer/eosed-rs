@@ -1,0 +1,30 @@
+┌eosed───────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│device id 0 · fw 4.00 · write ARMED · Δ0                                                                    │
+└────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+┌Presets────────────────────────┐┌parameters — voice V1──────────────────────────────────────────────────────┐
+│> P000  Demo Grand Piano       ││   37   E4_GEN_GROUP_NUM                                 0                 │
+│  P001  Demo Warm Pad          ││   38   E4_GEN_SAMPLE                                    0                 │
+│  P005  Demo Bass              ││   39   E4_GEN_VOLUME                                   -6           dB    │
+│                               ││   40   E4_GEN_PAN                                       0                 │
+│                               ││   41   E4_GEN_CTUNE                                     0                 │
+│                               ││   42   E4_GEN_FTUNE                                     0                 │
+│                               ││   43   E4_GEN_XPOSE                                     0           semito│
+│                               ││   44   E4_GEN_ORIG_KEY                                  0 (C-2)           │
+│                               ││   45   E4_GEN_KEY_LOW                                   0 (C-2)           │
+│                               ││   46   E4_GEN_KEY_LOWFADE                               0                 │
+│                               ││   47   E4_GEN_KEY_HIGH                                  0 (C-2)           │
+│                               ││   48   E4_GEN_KEY_HIGHFADE                              0                 │
+│                               ││   49   E4_GEN_VEL_LOW                                   0                 │
+│                               ││   50   E4_GEN_VEL_LOWFADE                               0                 │
+│                               ││   51   E4_GEN_VEL_HIGH                                  0                 │
+│                               ││   52   E4_GEN_VEL_HIGHFADE                              0                 │
+│                               ││   53   E4_GEN_RT_LOW                                    0                 │
+│                               ││   54   E4_GEN_RT_LOWFADE                                0                 │
+│                               ││   55   E4_GEN_RT_HIGH                                   0                 │
+│                               ││   56   E4_GEN_RT_HIGHFADE                               0                 │
+│                               ││   57   E4_VOICE_NON_TRANSPOSE                           0 (off)           │
+│                               ││   58   E4_VOICE_CHORUS_AMOUNT                           0           %     │
+└───────────────────────────────┘└───────────────────────────────────────────────────────────────────────────┘
+preset 0: voice V1, 1 sample(s) used
+q Quit · p Presets · s Samples · g Goto · r Refresh · o Rename · v Voices · l Links · u Find usage
+i Integrity · c Cache structure · C Cache everything · x Clear usage cache · e Extended view · Esc Back

@@ -1,0 +1,7 @@
+# eosed local config - gitignored, safe to delete.
+port = "New Port"
+compact_view = true
+cache_depth = " FULL "
+sample_usage_early_stop = "fullscan"
+send_pc_on_preset_select = false
+note = "café"

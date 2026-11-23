@@ -1,0 +1,3 @@
+# eosed local config - gitignored, safe to delete.
+port = "Out\"Quoted"
+recv_port = "ALSA: Midi"

@@ -1,0 +1,30 @@
+┌eosed─────────────────────────────────────────────────────────────────────────────────────────────┐
+│device id 0 · fw 4.00 · write ARMED · Δ1                                                          │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+┌Presets─────────────────────┐┌parameters — global─────────────────────────────────────────────────┐
+│> P000  Demo Grand Piano    ││    0   E4_PRESET_TRANSPOSE                       0           semito│
+│  P001  Demo Warm Pad       ││    1   E4_PRESET_VOLUME                          0           dB    │
+│  P005  Demo Bass           ││    2   E4_PRESET_CTRL_A                          0                 │
+│                            ││    3   E4_PRESET_CTRL_B                          0                 │
+│                            ││    4   E4_PRESET_CTRL_C                          0                 │
+│                            ││    5   E4_PRESET_CTRL_D                          0                 │
+│                            ││    6   E4_PRESET_FX_A_ALGORITHM                  0 (Master E       │
+│                            ││    7   E4_PRESET_FX_A_PARM_0                     0 (Decay Ti       │
+│                            ││    8   E4_PRESET_FX_A_PARM_1                     0 (HF Dampi       │
+│                            ││    9   E4_PRESET_FX_A_PARM_2                     0 (FxB==>Fx       │
+│                            ││   10   E4_PRESET_FX_A_AMT_0                      0 (Main)          │
+│                            ││   11   E4_PRESET_FX_A_AMT_1                      0 (Sub 1)         │
+│                            ││   12   E4_PRESET_FX_A_AMT_2                      0 (Sub 2)         │
+│                            ││   13   E4_PRESET_FX_A_AMT_3                      0 (Sub 3)         │
+│                            ││   14   E4_PRESET_FX_B_ALGORITHM                  0 (Master E       │
+│                            ││   15   E4_PRESET_FX_B_PARM_0                     0 (Feedback       │
+│                            ││   16   E4_PRESET_FX_B_PARM_1                     0 (LFO Rate       │
+│                            ││   17   E4_PRESET_FX_B_PARM_2                     0 (Delay Ti       │
+│                            ││   18   E4_PRESET_FX_B_AMT_0                      0 (Main)          │
+│                            ││   19   E4_PRESET_FX_B_AMT_1                      0 (Sub 1)         │
+│                            ││   20   E4_PRESET_FX_B_AMT_2                      0 (Sub 2)         │
+│                            ││   21   E4_PRESET_FX_B_AMT_3                      0 (Sub 3)         │
+└────────────────────────────┘└────────────────────────────────────────────────────────────────────┘
+preset 0: global parameters (22)
+q Quit · p Presets · s Samples · g Goto · r Refresh · o Rename · v Voices · l Links
+u Find usage · i Integrity · c Cache structure · C Cache everything · x Clear usage cache
