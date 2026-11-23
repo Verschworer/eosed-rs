@@ -69,7 +69,7 @@ fn main() {
 
     {
         let mut s = Settings::new("eosed", "config.toml");
-        let (data, _) = s.read(Some("s_valid.toml"));
+        let (data, _) = s.read(Some("fixtures/s_valid.toml"));
         let cv = data.get("compact_view");
         println!(
             "wr|compact_view|{}",
@@ -106,7 +106,7 @@ fn main() {
                 _ => "none".into(),
             }
         );
-        let ports = s.load_ports(Some("s_valid.toml"));
+        let ports = s.load_ports(Some("fixtures/s_valid.toml"));
         println!(
             "wr|ports|{}",
             match ports {

@@ -2,3 +2,4 @@ target/
 *.err
 config.toml
 *.tmp
+ft_*.bin

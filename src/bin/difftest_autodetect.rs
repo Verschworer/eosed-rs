@@ -103,7 +103,7 @@ fn run_scenario(
     cached: Option<(&str, &str)>,
     device_id: Option<u8>,
 ) {
-    let path = format!("autod_{name}.toml");
+    let path = format!("fixtures/autod_{name}.toml");
     {
         let mut s = Settings::new("eosed", &path);
         if let Some((snd, rcv)) = cached {
